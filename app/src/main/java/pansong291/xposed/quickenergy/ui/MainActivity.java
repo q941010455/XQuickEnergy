@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
         PermissionUtil.requestPermissions(this);
         new AlertDialog.Builder(this)
                 .setTitle("提示")
-                .setMessage("本APP免费提供，不得进行任何形式的转发、发布、传播。如果您是购买的可能已经被骗，请联系卖家退款。需要购买摸水账号的点击页面下方的摸水号购买按钮")
+                .setMessage("本APP免费提供，本APP免费提供，本APP免费提供，需要购买摸水账号的打开浏览器输入myslms.cn进行购买")
                 .setNegativeButton("我知道了", null)
                 .create().show();
     }
@@ -141,7 +141,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.btn_github:
-                data = "https://myslms.cn";
+                data = "http://myslms.cn";
                 break;
 
             case R.id.btn_settings:
