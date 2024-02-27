@@ -48,7 +48,7 @@ public class HtmlViewerActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-//        menu.add(0, 1, 0, getString(R.string.open_with_other_browser));
+        menu.add(0, 1, 0, getString(R.string.open_with_other_browser));
         menu.add(0, 2, 0, getString(R.string.copy_the_url));
         menu.add(0, 3, 0, getString(R.string.scroll_to_top));
         menu.add(0, 4, 0, getString(R.string.scroll_to_bottom));
