@@ -141,7 +141,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.btn_github:
-                data = "https://myslms.cn";
+                data = "https://myslms.cn/";
                 break;
 
             case R.id.btn_settings:
