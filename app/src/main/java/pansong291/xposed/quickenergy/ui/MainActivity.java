@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
         PermissionUtil.requestPermissions(this);
         new AlertDialog.Builder(this)
                 .setTitle("提示")
-                .setMessage("本APP是为了学习研究开发，免费提供，不得进行任何形式的转发、发布、传播。请于24小时内卸载本APP。如果您是购买的可能已经被骗，请联系卖家退款。")
+                .setMessage("本APP免费提供，不得进行任何形式的转发、发布、传播。如果您是购买的可能已经被骗，请联系卖家退款。需要购买摸水账号的点击页面下方的摸水号购买按钮")
                 .setNegativeButton("我知道了", null)
                 .create().show();
     }
